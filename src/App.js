@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
+import ReactMarkdown from 'react-markdown'
+import ReactDom from 'react-dom'
 
 function App() {
   return (
-    <div>
-      react-markdown 사용하기
-    </div>
+    ReactDom.render(<ReactMarkdown># Hello, *world*!</ReactMarkdown>, document.body)
   );
 }
 
