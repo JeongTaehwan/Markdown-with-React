@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
 function App() {
-  const markdown = `Just a link: https://reactjs.com.`
+  const markdown = `Just a link: https://reactjs.com.`;
   return (
     ReactDom.render(
       <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />,
